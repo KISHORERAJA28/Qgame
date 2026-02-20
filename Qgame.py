@@ -40,6 +40,7 @@ answer = input(' Mouse is an input device or output device? \n ')
 if answer.lower() == 'input device':
     print("Correct")
     score += 1
+    
 else:
     print('Wrong')
     print("You got the " + str(score)+ " correct answers")
